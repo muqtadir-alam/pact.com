@@ -1,0 +1,192 @@
+.howitworks-container {
+	display: flex;
+	/* flex-wrap: wrap; */
+	height: 100vh;
+	margin-left: 15rem;
+	
+}
+
+.left-part {
+	width: 19.5625em;
+
+	align-items: center;
+	justify-content: center;
+}
+.learn {
+	margin: 2rem 0rem 3rem 1rem;
+	font-family: Avenir;
+	font-size: 42px;
+	font-weight: 300;
+}
+.left-paragraph {
+	margin: 2.5rem 0rem 3rem 1rem;
+}
+.left-paragraph p {
+	margin-bottom: 2.5em;
+}
+
+.mid-part {
+	width: 20.5625em;
+
+	margin: 8rem 2rem 2rem 0.9rem;
+	
+}
+.mid-paragraph div {
+	display: flex;
+}
+.mid-paragraph p {
+	margin-bottom: 2.5em;
+}
+
+.mid-paragraph span {
+	background-color: #ff9500;
+	color: #fff;
+
+	padding: 17px;
+
+	width: 50px;
+	height: 50px;
+	margin: 0 20px 38px 0;
+	padding: 16px 20px 15px 21px;
+
+	border-radius: 50%;
+}
+
+.right-part {
+	width: 60%;
+	
+}
+
+.credits {
+	margin: 2rem 0rem 3rem 1rem;
+	font-family: Avenir;
+	font-size: 42px;
+	font-weight: 300;
+}
+.big-box {
+	display: flex;
+	flex-wrap: wrap;
+}
+.Only-active-members {
+	width: 80%;
+	height: 3rem;
+
+	text-align: center;
+	font-family: Avenir;
+	font-size: 14px;
+
+	color: #ffffff;
+
+	height: 50px;
+	margin: 5rem 0px 132px 30px;
+	padding: 7px;
+	object-fit: contain;
+	border-radius: 25px;
+	background-color: #0a2439;
+}
+
+.box {
+	width: 220px;
+	height: 132px;
+
+	text-align: center;
+	margin-bottom: 7rem;
+}
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+  
+	
+.left-part {
+	width: 100vw;
+
+	align-items: center;
+	justify-content: center;
+}
+
+
+	.howitworks-container {
+		display: flex;
+		flex-wrap: wrap;
+		height: 100vh;
+		margin-left: 0rem;
+		width: 100vw;
+	}
+
+
+	
+.box {
+	width: 150px;
+	height: 132px;
+
+	text-align: center;
+	margin-bottom: 7rem;
+}
+
+.box .four-star{
+	width: 145px;
+	
+}
+.box .two-star{
+	
+}
+
+
+
+.big-box {
+	display: flex;
+
+	justify-content: space-around;
+	
+}
+
+
+.right-part {
+	width: 100vw;
+}
+
+
+
+
+.Only-active-members {
+	width: 100vw;
+	height: 4rem;
+
+	text-align: center;
+	font-family: Avenir;
+	font-size: 14px;
+
+	color: #ffffff;
+
+	height: 50px;
+	margin: 5rem 0px 132px 30px;
+	padding: 7px;
+	object-fit: contain;
+	border-radius: 25px;
+	background-color: #0a2439;
+}
+
+
+
+.Only-active-members {
+	width: 100vw;
+	height: 5rem;
+
+	text-align: center;
+	font-family: Avenir;
+	font-size: 14px;
+
+	color: #ffffff;
+
+	height: 50px;
+	margin: 5rem 0px 132px 0px;
+	padding: 7px;
+	object-fit: contain;
+	border-radius: 25px;
+	background-color: #0a2439;
+}
+
+  }

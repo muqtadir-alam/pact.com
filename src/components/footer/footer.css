@@ -1,0 +1,10 @@
+.footer-container{
+    width: 100vw;
+    margin: auto;
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+    margin-top: 4rem;
+    background-color: rgba(120, 120, 128, 0.2);
+    color: #f8f9fa;
+}

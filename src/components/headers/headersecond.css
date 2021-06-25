@@ -1,0 +1,18 @@
+*{
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+.headersecond-container{
+    color:  #0a2439;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+   height: 12.5em;
+   background-color: #eceff1;
+}
